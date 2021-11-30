@@ -129,8 +129,11 @@ h3 {
   margin-right: auto;
   cursor: pointer;
   display: inline-block;
-  padding: 11px 34px;
+  padding: 10px 32px;
   margin-top: 30px;
+  border-color: transparent;
+  letter-spacing: 0.06;
+  border-radius: 4px;
 }
 
 /*Наши преимущества */
@@ -168,7 +171,7 @@ h3 {
 }
 
 .section-title {
-  align-items: center;
+  text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
