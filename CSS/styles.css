@@ -12,11 +12,18 @@ ul {
   list-style: none;
 }
 
-.container-header {
-  display: flex;
-  align-items: center;
-  padding-left: 215px;
-  padding-right: 215px;
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .link {
@@ -130,8 +137,7 @@ ul {
 .feature-list {
   display: flex;
   align-items: center;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding: 0;
 }
 .feature-list .item {
   width: 270px;
@@ -147,6 +153,7 @@ ul {
   text-transform: uppercase;
   color: var(--litle-text-color);
   padding-bottom: 10px;
+  align-items: center;
 }
 .feature-list .text {
   font-weight: 400;
