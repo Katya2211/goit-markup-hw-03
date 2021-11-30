@@ -131,6 +131,8 @@ ul {
 .feature-list {
   display: flex;
   align-items: center;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .feature-list .item {
   width: 270px;
