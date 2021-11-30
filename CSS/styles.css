@@ -104,11 +104,10 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  display: inline-table;
+
   letter-spacing: 0.06em;
   padding-top: 200px;
   padding-bottom: 280px;
-  display: inline-table;
 }
 .hero .text {
   font-weight: 700;
