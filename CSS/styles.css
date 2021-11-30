@@ -108,6 +108,7 @@ h3 {
 .hero {
   background: rgba(47, 48, 58, 1);
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero .title {
@@ -116,8 +117,6 @@ h3 {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  padding-top: 200px;
-  padding-bottom: 280px;
   margin-top: 30px;
 }
 .hero .button {
@@ -131,6 +130,7 @@ h3 {
   cursor: pointer;
   display: inline-block;
   padding: 11px 34px;
+  margin-top: 30px;
 }
 
 /*Наши преимущества */
