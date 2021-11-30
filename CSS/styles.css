@@ -132,7 +132,7 @@ h3 {
   padding: 10px 32px;
   margin-top: 30px;
   border-color: transparent;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   border-radius: 4px;
 }
 
@@ -195,18 +195,32 @@ h3 {
   font-size: 16px;
   line-height: 1.18;
   color: var(--litle-text-color);
+  text-align: center;
 }
 .workers-list .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
+  text-align: center;
 }
 .end-page {
   background-color: var(--litle-text-color);
 }
 .logo_second_color {
   color: var(--additional-color);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address .street {
+  margin-bottom: 9px;
+}
+.address .mail {
+  margin-bottom: 9px;
 }
 .address-section .link {
   font-weight: 400;
