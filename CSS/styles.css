@@ -236,10 +236,13 @@ img {
 .team-section {
   padding-top: 30px;
   padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .end-page {
   padding: 60px 0;
-  background-color: var(--litle-text-color);
+  background-color: #2f303a;
 }
 
 .logo_second_color {
@@ -282,15 +285,29 @@ img {
 }
 
 /*portfolio section */
+.project .title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 .btn {
-  margin-left: 495px;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .btn .item + .item {
   margin-left: 8px;
 }
 .btn .item {
-  margin-top: 100px;
+  margin-top: 94px;
+  padding-bottom: 56px;
+  align-items: center;
 }
 
 .btn .current {
@@ -301,6 +318,12 @@ img {
   letter-spacing: 0.03em;
   color: var(--additional-color);
   background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  margin: 0;
+  border: transparent;
 }
 .btn .filter-button {
   font-weight: 500;
@@ -310,6 +333,11 @@ img {
   letter-spacing: 0.03em;
   color: var(--litle-text-color);
   cursor: pointer;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  margin: 0;
+  border: transparent;
 }
 .btn .filter-button:hover,
 .btn .filter-button:focus {
@@ -322,6 +350,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--litle-text-color);
+  margin: 0;
 }
 .projects .text {
   font-weight: 400;
