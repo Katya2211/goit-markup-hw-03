@@ -9,6 +9,8 @@ body {
   color: var(--primary-text-color);
 }
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -16,12 +18,12 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -34,6 +36,9 @@ h3 {
 .header-content {
   align-items: center;
   display: flex;
+}
+.page-header {
+  border-bottom: 1px solid;
 }
 
 /*logo*/
@@ -50,10 +55,12 @@ h3 {
 }
 
 /*site-nave*/
+.nav-block {
+  margin-left: 93px;
+}
 
 .site-nav {
   display: flex;
-  margin-left: 90px;
 }
 .auth-nav {
   display: flex;
@@ -69,8 +76,7 @@ h3 {
 
 .site-nav .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
   color: var(--litle-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -141,6 +147,16 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 .feature-list {
   display: flex;
   align-items: center;
@@ -182,8 +198,16 @@ h3 {
 .works-list {
   display: flex;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .works {
   margin-right: 30px;
+}
+.team {
+  background: #f5f4fa;
 }
 .workers-list {
   display: flex;
@@ -192,21 +216,32 @@ h3 {
   margin-right: 30px;
 }
 .workers-list .title {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--litle-text-color);
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .workers-list .text {
   font-weight: 400;
+  line-height: 19px;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
   text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+}
+.team-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .end-page {
+  padding: 60px 0;
   background-color: var(--litle-text-color);
 }
+
 .logo_second_color {
   color: var(--additional-color);
 }
@@ -215,6 +250,11 @@ h3 {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+}
+.address-section {
+  margin-bottom: 0;
+  padding: 0;
 }
 .address .street {
   margin-bottom: 9px;
@@ -295,6 +335,8 @@ h3 {
 }
 .project .btn {
   display: flex;
+}
+.project .item {
 }
 
 .projects {
