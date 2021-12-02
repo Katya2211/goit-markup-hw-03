@@ -286,6 +286,9 @@ img {
 }
 
 /*portfolio section */
+.projects {
+  padding-bottom: 94px;
+}
 .project .title {
   position: absolute;
   width: 1px;
@@ -300,7 +303,6 @@ img {
   margin-right: auto;
   display: flex;
   justify-content: center;
-  margin: 94px 0 50px;
 }
 .btn .item + .item {
   margin-left: 8px;
@@ -310,7 +312,21 @@ img {
   padding-bottom: 56px;
   align-items: center;
 }
-
+.btn .current {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--additional-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  margin: 0;
+  border: transparent;
+}
 .btn .filter-button {
   font-weight: 500;
   font-size: 16px;
