@@ -68,7 +68,7 @@ p {
 }
 
 .site-nav .item {
-  margin-right: 40px;
+  margin-right: 50px;
 }
 .site-nav .item:last-child {
   margin-right: 0;
@@ -123,7 +123,6 @@ p {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-top: 30px;
 }
 .hero .button {
   font-weight: 700;
@@ -161,14 +160,11 @@ p {
 .feature-list {
   display: flex;
   align-items: center;
-  padding: 0;
 }
-.feature-list .item {
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
+.feature-list .item:not(:last-child) {
+  margin-right: 30px;
 }
+
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -176,7 +172,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--litle-text-color);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   align-items: center;
 }
 .feature-list .text {
@@ -185,6 +181,10 @@ p {
   line-height: 1.7;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+}
+.section.work {
+  padding-top: 0;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -204,7 +204,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.works {
+.works:not(:last-child) {
   margin-right: 30px;
 }
 .team {
@@ -213,8 +213,11 @@ img {
 .workers-list {
   display: flex;
 }
-.works-img {
+.works-img:not(:last-child) {
   margin-right: 30px;
+}
+.works-img {
+  background-color: var(--additional-color);
 }
 .workers-list .title {
   font-weight: 500;
@@ -254,16 +257,16 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .address-section {
   margin-bottom: 0;
   padding: 0;
 }
-.address .street {
+.address .street:not(:last-child) {
   margin-bottom: 9px;
 }
-.address .mail {
+.address .mail:not(:last-child) {
   margin-bottom: 9px;
 }
 .address-section .link {
@@ -289,7 +292,7 @@ img {
 .projects {
   padding-bottom: 94px;
 }
-.project .title {
+.section .hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -300,18 +303,14 @@ img {
   clip: rect(0 0 0 0);
 }
 .btn {
-  margin-right: auto;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 .btn .item + .item {
   margin-left: 8px;
 }
-.btn .item {
-  margin-top: 94px;
-  padding-bottom: 56px;
-  align-items: center;
-}
+
 .btn .current {
   font-weight: 500;
   font-size: 16px;
@@ -396,5 +395,5 @@ img {
   margin-bottom: 0px;
 }
 .products {
-  padding: 24px 20px 24px 0;
+  padding: 24px 20px 24px 20px;
 }
