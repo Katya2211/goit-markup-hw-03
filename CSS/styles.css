@@ -38,7 +38,7 @@ p {
   display: flex;
 }
 .page-header {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #ececec;
 }
 
 /*logo*/
@@ -383,7 +383,7 @@ img {
   margin-right: auto;
 }
 .element {
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
